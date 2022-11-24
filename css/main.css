@@ -6,8 +6,12 @@
     font-style: normal;
 }
 
+.marginTop{
+    margin: 10%;
+}
+
 #start-article{
-    margin: 0 auto;
+    margin: 10% auto;
     text-align: center;
 }
 
