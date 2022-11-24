@@ -13,14 +13,21 @@
 
 .main-text{font-family: 'TmoneyRoundWindExtraBold'; font-size: 3rem; color: #262626;  text-align: center; padding-top: 3vh;}
 .sub-text{font-family: 'pretendard'; font-size: 1.5rem; color: #262626; text-align: center; font-weight: 500; line-height: 2rem; margin: 5vh 3vw;}
-.imgSection{width: 80vw; height: 50vh; background-color: #c4c4c4; border-radius: 50px; margin: 0 auto; margin-bottom: 5vh;}
+.imgSection{width: 80vw; background-color: #ffffff; border-radius: 50px; margin: 0 auto; margin-bottom: 3vh;}
+.imgSection img{width: 80vw}
 
 button{background-color: #FFE072; border: none; padding: 20px 100px; border-radius: 999px; font-family: 'TmoneyRoundWindExtraBold'; font-size: 2rem; color: #262626; text-align: center; display: block; margin: 0 auto; margin-bottom: 20px; width: 80vw;}
 
 
-
-
-
 #question-article, #result-article{
     display: none;
+}
+
+#result{
+    width: 100vw;
+}
+
+#result img{
+    width: 80vw;
+    border: solid 1px red;
 }
